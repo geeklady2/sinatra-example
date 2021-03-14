@@ -1,5 +1,5 @@
 # Load the main page
 get '/' do
-  erb :index
+  erb(:index)
 end
 
